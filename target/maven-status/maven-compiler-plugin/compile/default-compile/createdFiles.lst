@@ -1,0 +1,11 @@
+CRM\pages\LoginPage.class
+CRM\pages\Calendarpage.class
+CRM\utilities\WebEventListner.class
+CRM\ExtentReportListener\ExtentReporterNG.class
+CRM\base\base.class
+CRM\pages\Contactspage.class
+CRM\pages\Companiespage.class
+CRM\pages\Dealspage.class
+CRM\pages\Homepage.class
+CRM\pages\SignupPage.class
+CRM\utilities\TestUtil.class

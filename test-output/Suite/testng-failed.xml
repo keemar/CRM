@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="CRM.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CRM.testpages.ContactspageTest">
+        <methods>
+          <include name="addnewcontact"/>
+          <include name="validateContactsPageThrashIcon"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- CRM.testpages.ContactspageTest -->
+      <class name="CRM.testpages.LoginpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logintest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- CRM.testpages.LoginpageTest -->
+      <class name="CRM.testpages.HomepageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="clickCompanieslink"/>
+          <include name="clickContactslink"/>
+          <include name="setup"/>
+          <include name="homepageuserlabeltest"/>
+          <include name="clickdealslink"/>
+          <include name="clickCalendarlink"/>
+        </methods>
+      </class> <!-- CRM.testpages.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

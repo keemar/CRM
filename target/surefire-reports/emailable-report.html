@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">14</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">251,582</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">CRM.testpages.ContactspageTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1597854715348</td><td rowspan="1">9636</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">CRM.testpages.ContactspageTest</td><td><a href="#m1">teardown</a></td><td rowspan="1">1597854724987</td><td rowspan="1">-1597854724987</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">CRM.testpages.ContactspageTest</td><td><a href="#m2">validateContactsPageThrashIcon</a></td><td rowspan="1">1597854724987</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">CRM.testpages.ContactspageTest</td><td><a href="#m3">addnewcontact</a></td><td rowspan="3">1597854692733</td><td rowspan="3">2012</td></tr><tr class="passedeven"><td><a href="#m4">addnewcontact</a></td></tr><tr class="passedeven"><td><a href="#m5">addnewcontact</a></td></tr><tr class="passedeven"><td><a href="#m6">contactspagelabeltest</a></td><td rowspan="1">1597854654151</td><td rowspan="1">70</td></tr><tr class="passedodd"><td rowspan="7">CRM.testpages.HomepageTest</td><td><a href="#m7">clickCalendarlink</a></td><td rowspan="1">1597854797873</td><td rowspan="1">105</td></tr><tr class="passedodd"><td><a href="#m8">clickCompanieslink</a></td><td rowspan="1">1597854834596</td><td rowspan="1">85</td></tr><tr class="passedodd"><td><a href="#m9">clickContactslink</a></td><td rowspan="1">1597854815534</td><td rowspan="1">114</td></tr><tr class="passedodd"><td><a href="#m10">clickdealslink</a></td><td rowspan="1">1597854852697</td><td rowspan="1">88</td></tr><tr class="passedodd"><td><a href="#m11">homepagelogotest</a></td><td rowspan="1">1597854760951</td><td rowspan="1">35</td></tr><tr class="passedodd"><td><a href="#m12">homepagetitletest</a></td><td rowspan="1">1597854742734</td><td rowspan="1">7</td></tr><tr class="passedodd"><td><a href="#m13">homepageuserlabeltest</a></td><td rowspan="1">1597854779052</td><td rowspan="1">36</td></tr><tr class="passedeven"><td rowspan="3">CRM.testpages.LoginpageTest</td><td><a href="#m14">loginpagelogo</a></td><td rowspan="1">1597854868880</td><td rowspan="1">192</td></tr><tr class="passedeven"><td><a href="#m15">loginpagetitletest</a></td><td rowspan="1">1597854861304</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m16">logintest</a></td><td rowspan="1">1597854876565</td><td rowspan="1">10186</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">CRM.testpages.ContactspageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com&quot;&gt;...&lt;/a&gt; is not clickable at point (426, 45). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.0312111;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.125)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1R9E1U3&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ce6c2eafefb45bae866711168d9cb76
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at CRM.pages.LoginPage.login(LoginPage.java:48)
+	at CRM.testpages.ContactspageTest.setup(ContactspageTest.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 51 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">CRM.testpages.ContactspageTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">CRM.testpages.ContactspageTest#validateContactsPageThrashIcon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com&quot;&gt;...&lt;/a&gt; is not clickable at point (426, 45). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.0312111;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.125)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1R9E1U3&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ce6c2eafefb45bae866711168d9cb76
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at CRM.pages.LoginPage.login(LoginPage.java:48)
+	at CRM.testpages.ContactspageTest.setup(ContactspageTest.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 51 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">CRM.testpages.ContactspageTest#addnewcontact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>keerthi2</td><td>sandupatla2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">CRM.testpages.ContactspageTest#addnewcontact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>keerthi1</td><td>sandupatla1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">CRM.testpages.ContactspageTest#addnewcontact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>keerthi3</td><td>sandupatla3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">CRM.testpages.ContactspageTest#contactspagelabeltest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">CRM.testpages.HomepageTest#clickCalendarlink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">CRM.testpages.HomepageTest#clickCompanieslink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">CRM.testpages.HomepageTest#clickContactslink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">CRM.testpages.HomepageTest#clickdealslink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">CRM.testpages.HomepageTest#homepagelogotest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">CRM.testpages.HomepageTest#homepagetitletest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">CRM.testpages.HomepageTest#homepageuserlabeltest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">CRM.testpages.LoginpageTest#loginpagelogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">CRM.testpages.LoginpageTest#loginpagetitletest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">CRM.testpages.LoginpageTest#logintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

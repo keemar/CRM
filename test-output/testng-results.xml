@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36010" started-at="2020-08-19T16:20:17Z" finished-at="2020-08-19T16:20:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36010" started-at="2020-08-19T16:20:17Z" finished-at="2020-08-19T16:20:53Z">
+      <class name="CRM.testpages.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="setup" is-config="true" duration-ms="8126" started-at="2020-08-19T16:20:17Z" finished-at="2020-08-19T16:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitletest()[pri:1, instance:CRM.testpages.LoginpageTest@210366b4]" name="loginpagetitletest" duration-ms="30" started-at="2020-08-19T16:20:25Z" finished-at="2020-08-19T16:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="teardown" is-config="true" duration-ms="662" started-at="2020-08-19T16:20:25Z" finished-at="2020-08-19T16:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="setup" is-config="true" duration-ms="7704" started-at="2020-08-19T16:20:26Z" finished-at="2020-08-19T16:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagelogo()[pri:2, instance:CRM.testpages.LoginpageTest@210366b4]" name="loginpagelogo" duration-ms="203" started-at="2020-08-19T16:20:34Z" finished-at="2020-08-19T16:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagelogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="teardown" is-config="true" duration-ms="766" started-at="2020-08-19T16:20:34Z" finished-at="2020-08-19T16:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="setup" is-config="true" duration-ms="7289" started-at="2020-08-19T16:20:35Z" finished-at="2020-08-19T16:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:3, instance:CRM.testpages.LoginpageTest@210366b4]" name="logintest" duration-ms="10502" started-at="2020-08-19T16:20:42Z" finished-at="2020-08-19T16:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:CRM.testpages.LoginpageTest@210366b4]" name="teardown" is-config="true" duration-ms="698" started-at="2020-08-19T16:20:52Z" finished-at="2020-08-19T16:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CRM.testpages.LoginpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
